@@ -31,7 +31,9 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    "@nuxtjs/vuetify"
+  ],
   /*
    ** Build configuration
    */
@@ -41,4 +43,9 @@ export default {
      */
     extend(config, ctx) {},
   },
+  // Doc: https://github.com/nuxt-community/vuetify-module
+  vuetify: {
+    customVariables: ["~/assets/variables.scss"],
+    optionsPath: "./vuetify.options.js"
+  }
 };
