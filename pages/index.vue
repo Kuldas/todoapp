@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        TODO app by Kulda
+        TODO app by Kuldas
       </h1>
       <h2 class="subtitle">
         My astonishing Nuxt.js project
